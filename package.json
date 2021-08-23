@@ -1,11 +1,14 @@
 {
-  "name": "template-cypress-frontend",
+  "name": "template-cypress",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open --config watchForFileChanges=false"
   },
   "author": "Filipe Conde",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.3.0"
+  }
 }
